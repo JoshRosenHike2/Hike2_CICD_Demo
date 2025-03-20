@@ -1,0 +1,140 @@
+guid: 8e78fe41-64c0-487c-86cf-91185db90ace
+liveboard:
+  name: josh's first Liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total sales by city
+      tables:
+      - id: (Sample) Retail - Apparel
+        name: (Sample) Retail - Apparel
+        fqn: cd252e5c-b552-49a8-821d-3eadaa049cca
+      search_query: "[sales] [state]"
+      answer_columns:
+      - name: Total sales
+      - name: state
+      table:
+        table_columns:
+        - column_id: Total sales
+          show_headline: false
+        - column_id: state
+          show_headline: false
+        ordered_column_ids:
+        - state
+        - Total sales
+        client_state: ""
+      chart:
+        type: GEO_AREA
+        chart_columns:
+        - column_id: Total sales
+        - column_id: state
+        axis_configs:
+        - x:
+          - state
+          "y":
+          - Total sales
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: a89f91f8-b19d-43e2-88c9-30ad030f60c4
+  - id: Viz_2
+    answer:
+      name: Total sales by State
+      tables:
+      - id: (Sample) Retail - Apparel
+        name: (Sample) Retail - Apparel
+        fqn: cd252e5c-b552-49a8-821d-3eadaa049cca
+      search_query: "[sales] [state]"
+      answer_columns:
+      - name: Total sales
+      - name: state
+      table:
+        table_columns:
+        - column_id: Total sales
+          show_headline: false
+        - column_id: state
+          show_headline: false
+        ordered_column_ids:
+        - state
+        - Total sales
+        client_state: ""
+      chart:
+        type: GEO_AREA
+        chart_columns:
+        - column_id: Total sales
+        - column_id: state
+        axis_configs:
+        - x:
+          - state
+          "y":
+          - Total sales
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: 7c1c3135-1971-4b98-afac-948963f58699
+  - id: Viz_3
+    answer:
+      name: Quantity Purchased by Product
+      tables:
+      - id: (Sample) Retail - Apparel
+        name: (Sample) Retail - Apparel
+        fqn: cd252e5c-b552-49a8-821d-3eadaa049cca
+      search_query: "[quantity purchased] [product]"
+      answer_columns:
+      - name: Total quantity purchased
+      - name: product
+      table:
+        table_columns:
+        - column_id: Total quantity purchased
+          show_headline: false
+        - column_id: product
+          show_headline: false
+        ordered_column_ids:
+        - product
+        - Total quantity purchased
+        client_state: ""
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Total quantity purchased
+        - column_id: product
+        axis_configs:
+        - x:
+          - product
+          "y":
+          - Total quantity purchased
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: 1eded902-0659-49a6-b44c-1e41f7f31cc6
+  - id: Viz_4
+    answer:
+      name: Quantity Purchased by Product
+      tables:
+      - id: (Sample) Retail - Apparel
+        name: (Sample) Retail - Apparel
+        fqn: cd252e5c-b552-49a8-821d-3eadaa049cca
+      search_query: "top 50 [zip code] by [quantity purchased]"
+      answer_columns:
+      - name: Total quantity purchased
+      - name: zip code
+      table:
+        table_columns:
+        - column_id: Total quantity purchased
+          show_headline: false
+        - column_id: zip code
+          show_headline: false
+        ordered_column_ids:
+        - zip code
+        - Total quantity purchased
+        client_state: ""
+      chart:
+        type: GEO_BUBBLE
+        chart_columns:
+        - column_id: Total quantity purchased
+        - column_id: zip code
+        axis_configs:
+        - x:
+          - zip code
+          "y":
+          - Total quantity purchased
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: df284486-3fc6-4f51-b4f3-3437d4770c80
