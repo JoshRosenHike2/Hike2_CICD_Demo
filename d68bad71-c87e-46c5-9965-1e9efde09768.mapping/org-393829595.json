@@ -9,6 +9,13 @@
     "7c1c3135-1971-4b98-afac-948963f58699" : "57253202-c1d0-4067-9e3f-da9fddcef618"
   }
 }, {
+  "originalGuid" : "cbddf6ed-0bdc-4e9f-9245-755620a34bb4",
+  "mappedGuid" : "83c6f0de-2dc2-4b8c-9155-9eb1df85f3be",
+  "counter" : 0,
+  "additionalMapping" : {
+    "01970923-fe15-4f75-8a5c-6c09acd28388" : "cf47aa4c-e30c-4275-ba38-165fff40fed2"
+  }
+}, {
   "originalGuid" : "2c469a17-d2cc-4988-b8a1-60ce6862d169",
   "mappedGuid" : "1ae8c01a-4e4e-4b08-a809-6546909a0dfc",
   "counter" : 0,
