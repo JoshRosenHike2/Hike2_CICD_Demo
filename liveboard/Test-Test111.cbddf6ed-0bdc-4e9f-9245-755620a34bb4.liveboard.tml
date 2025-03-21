@@ -1,0 +1,43 @@
+guid: cbddf6ed-0bdc-4e9f-9245-755620a34bb4
+liveboard:
+  name: Test-Test111
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total sales by county
+      tables:
+      - id: (Sample) Retail - Apparel
+        name: (Sample) Retail - Apparel
+        fqn: cd252e5c-b552-49a8-821d-3eadaa049cca
+      search_query: "[sales] [county] [item type]"
+      answer_columns:
+      - name: Total sales
+      - name: county
+      - name: item type
+      table:
+        table_columns:
+        - column_id: Total sales
+          show_headline: false
+        - column_id: county
+          show_headline: false
+        - column_id: item type
+          show_headline: false
+        ordered_column_ids:
+        - county
+        - item type
+        - Total sales
+        client_state: ""
+      chart:
+        type: GEO_AREA
+        chart_columns:
+        - column_id: Total sales
+        - column_id: county
+        - column_id: item type
+        axis_configs:
+        - x:
+          - county
+          "y":
+          - Total sales
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: 01970923-fe15-4f75-8a5c-6c09acd28388
